@@ -23,7 +23,7 @@ flowchart
     end
     
     subgraph WiFi Component
-    wifiin((State In))
+    wifiin((Signal In))
     end
     
     subgraph "Signal Check (Alert)"
@@ -122,7 +122,7 @@ flowchart
     anddoor[AND]
     
     subgraph WiFi Component
-    wifiin((State In))
+    wifiin((Signal In))
     end
     
     subgraph "Signal Check #40;Alert#41;"
